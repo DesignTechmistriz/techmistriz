@@ -42,7 +42,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-slate-700 text-center py-4 text-sm">
-        © 2025 Techmistriz. All rights reserved.
+        © 2026 Techmistriz. All rights reserved.
       </div>
     </footer>
   );

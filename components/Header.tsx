@@ -1,13 +1,19 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        
+
         {/* Logo */}
         <a href="#home" className="text-2xl font-bold text-600 text-[#6c63ff]">
-          Techmistriz
+          <Image
+            src="/download.png"
+            alt="download"
+            width={150}
+            height={150}
+          />
         </a>
 
         {/* Navigation */}

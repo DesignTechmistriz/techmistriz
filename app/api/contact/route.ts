@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
     const { name, email, phone, service, message } = await req.json();
 
     const response = await resend.emails.send({
-      from: "no-reply@yourdomain.com",   // verified sender
+      from: "test@resend.dev",   // verified sender
       to: "hs7646804@gmail.com",
       subject: `New Contact Form Submission from ${name}`,
       html: `

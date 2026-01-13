@@ -7,13 +7,13 @@ export default function Services() {
 
                 {/* Section Heading */}
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">
+                    <h2 className="our-services text-3xl md:text-4xl font-extrabold text-slate-900">
                         Our Services
                     </h2>
-                    <p className="mt-4 text-lg text-slate-600">
+                    <h5 className="mt-4 text-lg text-slate-600">
                         We provide end-to-end web, software, and digital marketing solutions
                         to help your business grow online.
-                    </p>
+                    </h5>
                 </div>
 
                 {/* Services Grid */}

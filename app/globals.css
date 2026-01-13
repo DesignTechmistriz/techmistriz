@@ -33,6 +33,135 @@ input:-webkit-autofill:active {
   -webkit-text-fill-color: #fff !important; /* Same as normal text */
   transition: background-color 9999s ease-in-out 0s;
 }
+}
+h2{
+  text-align: center;
+  font-size: 58px;
+  position: relative;
+  margin-bottom: 30px;
+}
+h5{
+  font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+}
+p{
+      font-size: 17px;
+    line-height: 27px;
+    font-weight: 500;
+}
+form label{
+  font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+footer h4{
+  font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+footer ul li{
+  font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+/* .our-services{
+  text-align: center;
+  font-size: 48px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.our-services:before{
+  content: "";
+    background: #6c63ff;
+    width: 370px;
+    height: 3px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.our-process{
+  text-align: center;
+  font-size: 48px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.our-process:before{
+  content: "";
+    background: #6c63ff;
+    width: 585px;
+    height: 3px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.why-choose{
+  text-align: center;
+  font-size: 48px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.why-choose:before{
+  content: "";
+    background: #fff;
+    width: 670px;
+    height: 3px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.clients-say{
+  text-align: center;
+  font-size: 48px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.clients-say:before{
+  content: "";
+    background: #6c63ff;
+    width: 620px;
+    height: 3px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.build-form{
+  text-align: center;
+  font-size: 48px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.build-form:before{
+  content: "";
+    background: #fff;
+    width: 830px;
+    height: 3px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
 
-
+@media (max-width: 767px){
+  h2 {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    font-size: 34px !important;
+    line-height: 44px!important;
+    position: relative !important;
+  }
+  h5 {
+    font-size: 18px!important;
+    font-weight: 500!important;
+    line-height: 26px!important;
+}
+p {
+    font-size: 16px!important;
+    font-weight: 500!important;
+    line-height: 25px!important;
+}
 }

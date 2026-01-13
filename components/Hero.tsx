@@ -20,9 +20,9 @@ export default function Hero() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
-        
+
         {/* LEFT CONTENT */}
-        <div>
+        <div className="order-2 md:order-1">
           <span className="inline-block mb-4 text-[#6c63ff] font-semibold">
             Welcome to Techmistriz
           </span>
@@ -56,7 +56,7 @@ export default function Hero() {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="relative">
+        <div className="order-1 md:order-2 relative">
           <Image
             src="/undraw_asset-selection_jrie.svg"
             alt="Techmistriz Hero Illustration"

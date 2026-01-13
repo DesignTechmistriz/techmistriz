@@ -47,12 +47,12 @@ export default function CTASection() {
 
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto text-white mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold">
+          <h2 className="build-form text-3xl md:text-4xl font-extrabold">
             Let’s Build Something Amazing
           </h2>
-          <p className="mt-4 text-lg text-slate-200">
+          <h5 className="mt-4 text-lg text-slate-200">
             Share your requirements with us and our experts will contact you shortly.
-          </p>
+          </h5>
         </div>
 
         <div className="max-w-4xl mx-auto">

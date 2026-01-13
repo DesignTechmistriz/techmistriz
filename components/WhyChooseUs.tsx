@@ -23,13 +23,13 @@ export default function WhyChooseUs() {
 
         {/* Heading */}
         <div className="text-center max-w-3xl mx-auto mb-20 text-white">
-          <h2 className="text-3xl md:text-4xl font-extrabold">
+          <h2 className="why-choose text-3xl md:text-4xl font-extrabold">
             Why Choose Techmistriz
           </h2>
-          <p className="mt-4 text-lg text-slate-200">
+          <h5 className="mt-4 text-lg text-slate-200">
             We combine creativity, technology, and strategy to deliver
             high-quality digital solutions that grow your business.
-          </p>
+          </h5>
         </div>
 
         {/* Grid */}

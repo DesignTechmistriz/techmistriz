@@ -10,12 +10,12 @@ export default function Testimonials() {
 
         {/* Heading */}
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">
+          <h2 className="clients-say text-3xl md:text-4xl font-extrabold text-slate-900">
             What Our Clients Say
           </h2>
-          <p className="mt-4 text-lg text-slate-600">
+          <h5 className="mt-4 text-lg text-slate-600">
             Real feedback from businesses we’ve helped grow.
-          </p>
+          </h5>
         </div>
 
         {/* Testimonials Grid */}

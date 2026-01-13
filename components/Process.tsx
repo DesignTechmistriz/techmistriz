@@ -10,13 +10,13 @@ export default function Process() {
 
         {/* Heading */}
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">
+          <h2 className="our-process text-3xl md:text-4xl font-extrabold text-slate-900">
             Our Working Process
           </h2>
-          <p className="mt-4 text-lg text-slate-600">
+          <h5 className="mt-4 text-lg text-slate-600">
             A simple and transparent workflow that ensures quality,
             efficiency, and timely delivery.
-          </p>
+          </h5>
         </div>
 
         {/* Process Steps */}
